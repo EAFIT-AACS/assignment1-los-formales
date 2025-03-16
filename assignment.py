@@ -46,7 +46,7 @@ for _ in range(int(lines[0])):              # Iterate over the number of cases
     for j in range(Q_number):
         function[j] = list(map(int, lines[current_line + 3 + j].split()[1:]))   # Store the transitions
     find_equivalence_states(range(Q_number), F, function, alphabet)     # Call the function to find the equivalence states
-    current_line += 3 + Q_number      # Update the start line for the next case
+    current_line += 3 + Q_number      # Update the start line for the next case   
 
 
 
